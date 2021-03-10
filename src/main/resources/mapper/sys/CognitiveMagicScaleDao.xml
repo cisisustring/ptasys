@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.CognitiveMagicScaleDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.CognitiveMagicScaleEntity" id="cognitiveMagicScaleMap">
+        <result property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="recommender" column="Recommender"/>
+        <result property="createTime" column="create_time"/>
+        <result property="ipAddress" column="ip_address"/>
+        <result property="i1" column="i1"/>
+        <result property="i2" column="i2"/>
+        <result property="i3" column="i3"/>
+        <result property="i4" column="i4"/>
+        <result property="i5" column="i5"/>
+        <result property="i6" column="i6"/>
+        <result property="i7" column="i7"/>
+        <result property="i8" column="i8"/>
+        <result property="extroversion" column="extroversion"/>
+        <result property="diffidence" column="diffidence"/>
+        <result property="reason" column="reason"/>
+        <result property="sensibility" column="sensibility"/>
+        <result property="behavior" column="behavior"/>
+        <result property="consider" column="consider"/>
+        <result property="intellect" column="intellect"/>
+        <result property="initiate" column="initiate"/>
+        <result property="organization" column="organization"/>
+        <result property="emotion" column="emotion"/>
+        <result property="useragent" column="UserAgent"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.FemaleinfDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.FemaleinfEntity" id="femaleinfMap">
+        <result property="id" column="Id"/>
+        <result property="name" column="name"/>
+        <result property="birthday" column="birthDay"/>
+        <result property="age" column="age"/>
+        <result property="number" column="number"/>
+        <result property="email" column="email"/>
+        <result property="company" column="company"/>
+        <result property="ageGroup" column="age_group"/>
+        <result property="constellation" column="constellation"/>
+        <result property="addr" column="addr"/>
+    </resultMap>
+
+
+</mapper>

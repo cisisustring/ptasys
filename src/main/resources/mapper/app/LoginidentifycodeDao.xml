@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.app.dao.LoginidentifycodeDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.app.entity.LoginidentifycodeEntity" id="loginidentifycodeMap">
+        <result property="id" column="id"/>
+        <result property="code" column="code"/>
+        <result property="phone" column="phone"/>
+        <result property="phonekey" column="phonekey"/>
+        <result property="password" column="password"/>
+        <result property="userid" column="userId"/>
+        <result property="openid" column="openId"/>
+        <result property="platformtype" column="platformType"/>
+        <result property="clienttype" column="clientType"/>
+        <result property="created" column="created"/>
+        <result property="logintime" column="loginTime"/>
+        <result property="type" column="type"/>
+        <result property="tries" column="tries"/>
+    </resultMap>
+
+
+</mapper>
