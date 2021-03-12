@@ -1,23 +1,3 @@
-**项目说明** 
-- renren-fast是一个轻量级的，前后端分离的Java快速开发平台，能快速开发项目并交付【接私活利器】
-- 支持MySQL、Oracle、SQL Server、PostgreSQL等主流数据库
-
-
- 
-
-**具有如下特点** 
-- 友好的代码结构及注释，便于阅读及二次开发
-- 实现前后端分离，通过token进行数据交互，前端再也不用关注后端技术
-- 灵活的权限控制，可控制到页面或按钮，满足绝大部分的权限需求
-- 页面交互使用Vue2.x，极大的提高了开发效率
-- 完善的代码生成机制，可在线生成entity、xml、dao、service、vue、sql代码，减少70%以上的开发任务
-- 引入quartz定时任务，可动态完成任务的添加、修改、删除、暂停、恢复及日志查看等功能
-- 引入API模板，根据token作为登录令牌，极大的方便了APP接口开发
-- 引入Hibernate Validator校验框架，轻松实现后端校验
-- 引入云存储服务，已支持：七牛云、阿里云、腾讯云等
-- 引入swagger文档支持，方便编写API接口文档
-<br> 
-
 **项目结构** 
 ```
 renren-fast
@@ -58,13 +38,7 @@ renren-fast
 <br> 
 
 
- **后端部署**
-- 通过git下载源码
-- idea、eclipse需安装lombok插件，不然会提示找不到entity的get set方法
-- 创建数据库renren_fast，数据库编码为UTF-8
-- 执行db/mysql.sql文件，初始化数据
-- 修改application-dev.yml，更新MySQL账号和密码
-- Eclipse、IDEA运行RenrenApplication.java，则可启动项目
+
 - Swagger文档路径：http://localhost:8080/renren-fast/swagger/index.html
 - Swagger注解路径：http://localhost:8080/renren-fast/swagger-ui.html
 
