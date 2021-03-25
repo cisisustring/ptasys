@@ -39,9 +39,6 @@ renren-fast
 
 
 
-- Swagger文档路径：http://localhost:8080/renren-fast/swagger/index.html
-- Swagger注解路径：http://localhost:8080/renren-fast/swagger-ui.html
-
 
 
 
